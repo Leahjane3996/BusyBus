@@ -1,0 +1,42 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #333;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 11px;
+  font-weight: bold;
+}
+.container {
+  margin: 0; auto;
+  width: 420px;
+}
+.arrow {
+  display: inline-block;
+  float: right;
+  width: 10%;
+}
+.content {
+  display: inline-block;
+  width: 90%;
+}
+.location {
+  border: 1px solid #000000;
+  background-color: #B8B8B8;
+}
+nav {
+  margin: 0; auto;
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 420px;
+  background-color: black;
+}
+
+.restaurant-list {
+  padding-top: 50px;
+  margin: 3%;
+  padding: 5%;
+  width: 95%;
+}
