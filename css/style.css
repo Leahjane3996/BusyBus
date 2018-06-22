@@ -4,11 +4,15 @@
 body {
   font-family:'SF pro text';
   font-size: 15px;
+<<<<<<< HEAD
     background-image: url("./images/Top Bar.png");
     background-image: color: #D8D8D8;
     width: 375px;
     height:auto;
     margin: 0 auto;
+=======
+  margin:200px;
+>>>>>>> 8ed439e74f0fc24dddbbb522664615d6730231e7
 }
 
 div.column {
@@ -18,17 +22,27 @@ div {
     column-gap: 1px;
 }
 img{
+<<<<<<< HEAD
   width: 375px;
   height:auto;
   background-color: #D8D8D8;
   margin: 0 auto;
+=======
+  max-width: 100%;
+  height:auto;
+  background-color: #D8D8D8;
+>>>>>>> 8ed439e74f0fc24dddbbb522664615d6730231e7
 }
 div {
     column-rule-color: grey;
 }
 table {
+<<<<<<< HEAD
   width: 375px;
   margin: 0 auto;
+=======
+  width: 100%;
+>>>>>>> 8ed439e74f0fc24dddbbb522664615d6730231e7
   border-collapse: collapse;
 }
 td {
@@ -43,8 +57,11 @@ th {
 }
 th, td,table {
     border-bottom: 1px solid #ddd;
+<<<<<<< HEAD
     width: 375px;
     margin: 0 auto;
+=======
+>>>>>>> 8ed439e74f0fc24dddbbb522664615d6730231e7
 }
 h1 {
     font-family:'SF pro text';
