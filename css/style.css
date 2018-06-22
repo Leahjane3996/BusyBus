@@ -21,16 +21,6 @@ img{
 div {
     column-rule-color: grey;
 }
-@media screen and (min-width: 575px){
-  div {
-    margin: 1%;
-    width: 48%;
-  }
-  }@media screen and (min-width: 900px){
-    div {
-      margin: 1%;
-      width: 22%;
-    }
 table {
   width: 100%;
   border-collapse: collapse;
