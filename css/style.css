@@ -4,7 +4,11 @@
 body {
   font-family:'SF pro text';
   font-size: 15px;
-  margin:200px;
+    background-image: url("./images/Top Bar.png");
+    background-image: color: #D8D8D8;
+    width: 375px;
+    height:auto;
+    margin: 0 auto;
 }
 
 div.column {
@@ -14,25 +18,17 @@ div {
     column-gap: 1px;
 }
 img{
-  max-width: 100%;
+  width: 375px;
   height:auto;
   background-color: #D8D8D8;
+  margin: 0 auto;
 }
 div {
     column-rule-color: grey;
 }
-@media screen and (min-width: 575px){
-  div {
-    margin: 1%;
-    width: 48%;
-  }
-  }@media screen and (min-width: 900px){
-    div {
-      margin: 1%;
-      width: 22%;
-    }
 table {
-  width: 100%;
+  width: 375px;
+  margin: 0 auto;
   border-collapse: collapse;
 }
 td {
@@ -47,6 +43,8 @@ th {
 }
 th, td,table {
     border-bottom: 1px solid #ddd;
+    width: 375px;
+    margin: 0 auto;
 }
 h1 {
     font-family:'SF pro text';
