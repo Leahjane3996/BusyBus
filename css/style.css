@@ -2,19 +2,114 @@
   box-sizing: border-box;
 }
 body {
+  font-family:'SF Pro Text', sans-serif;
+  font-size: 14px;
+  width: 375px;
+  height:auto;
+  margin: 0 auto;
+}
+.box1{
+  box-sizing: border-box;
+  float:left;
+  margin:1%;
+  padding:1%;
+  width: 40px;
+}
+.box2{
+  box-sizing: border-box;
+  float:left;
+  margin:1%;
+  padding:1%;
+  width: 170px;
+}
+.box3{
+  box-sizing: border-box;
+  float:left;
+  margin:1%;
+  padding:1%;
+  width: 140px;
+}
+.button {
+    background-color:#5AC8FA;
+    border: none;
+    color: white;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2 {
+    background-color:orange;
+    border: none;
+    color: white;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button3 {
+    background-color:#007AFF;
+    border: none;
+    color: white;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button4 {
+      background-color:#FFCC00;
+      border: none;
+      color: white;
+      padding: 3px 3px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    .button5 {
+        background-color:#FF3B30;
+        border: none;
+        color: white;
+        padding: 3px 3px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+.container {
+  margin: 0; auto;
+  width: 375px;
+}
+div{
+}
+div.arrow-left {
+  display: inline-block;
+  float: left;
+  width: 30%;
+}
+.destination, .frequency, .line{
+  height:50px;
+  border-bottom: 1px solid #D8D8D8;
+}
+h1 {
   font-family:'SF pro text';
-  font-size: 15px;
-    background-image: url("./images/Top Bar.png");
-    background-image: color: #D8D8D8;
-    width: 375px;
-    height:auto;
-    margin: 0 auto;
-}
-div.column {
-    column-count: 3;
-}
-div {
-    column-gap: 1px;
+  font-size: 18px;
+  align-content: center;
+  font-weight: bold;
+  display: inline;
 }
 img{
   width: 375px;
@@ -22,35 +117,16 @@ img{
   background-color: #D8D8D8;
   margin: 0 auto;
 }
-div {
-    column-rule-color: grey;
-}
-table {
-  width: 375px;
-  margin: 0 auto;
-  border-collapse: collapse;
-}
-td {
-  height: 60px;
-  vertical-align: middle;
-  text-align: center;
-}
-th {
-    text-align: center;
-    height: 15px;
-    font-weight: bold;
-}
-th, td,table {
-    border-bottom: 1px solid #ddd;
-    width: 375px;
-    margin: 0 auto;
-}
-h1 {
-    font-family:'SF pro text';
-    font-size: 16px;
-    align-content: center;
-    font-weight: bold;
-}
 h2 {
-  font-weight:bold;
+  font-weight: bold;
+}
+nav {
+  margin: 0; auto;
+  padding: 0px,0px,15px,15px;
+  width: 375px;
+  background-color:#D8D8D8;
+  height:65px;
+  text-align: center;
+  font-family: 'SF pro text';
+  font-size: 20px;
 }
