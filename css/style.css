@@ -117,14 +117,23 @@ ul li {
 
 ul li ul li {
   display: inline-block;
+  vertical-align: middle;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 .left {
   width: 12%;
+  padding-left: 3px;
 }
 
 .center {
   width: 43%;
+  padding-left: 30px;
 }
-.right{
+.right {
   width: 42%
+}
+li.right {
+  text-align: right;
+  padding-right: 3px
 }
